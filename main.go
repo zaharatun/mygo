@@ -2,14 +2,16 @@ package main
 
 import (
 	"github.com/zaharatun/mygo/helpers"
-	"log"
 )
 
-func main() {
-	log.Println("hello")
-	var myVar helpers.SomeType
-	myVar.TypeName = "zahir"
-	myVar.TypeNmber = 10
-	log.Println(myVar.TypeName)
-	log.Println(myVar.TypeNumber)
+func calculateValues(myChan chan int) {
+	
+	rendomNumber := helpers.RendomNumber(10)
+	
 }
+
+func main() {
+	myChan := make(chan int)
+}
+
+
