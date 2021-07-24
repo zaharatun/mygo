@@ -1,3 +1,3 @@
-module github.com/rasalsp1/mygo
+module github.com/zaharatun/mygo
 
 go 1.16
