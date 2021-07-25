@@ -7,7 +7,7 @@ import (
 )
 
 
-func renderTapmlate(w http.ResponseWriter, tmpl string) {
+func RenderTapmlate(w http.ResponseWriter, tmpl string) {
 prasedTamplate,_ :=template.ParseFiles("./templates/" +tmpl)
 err := prasedTamplate.Execute(w, nil)
  if err != nil {
