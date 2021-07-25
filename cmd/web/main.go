@@ -1,16 +1,18 @@
 package main
 
-import (
+
+import(
+	"fmt"
 	"net/http"
-	"github.com/zaharatun/mygo/pkg/handlers"
+	"pkg/handlers"
 )
 
 
-
+const portNuber =":2030"
 
 func main() {
-	http.HandleFunc("/",handlers.Home)
-	http.HandleFunc("/",handlers.About)
-
-	http.ListenAndServe(":2030", nil)
+	http.HandleFunc("/", handlers.Home)
+	http.HandleFunc("/about", handlers.About)
+	fmt.Println("Starting application on port:",portNumber)
+	http.ListenAndServe(portNumber, nil)
 }

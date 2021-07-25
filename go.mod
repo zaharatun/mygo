@@ -1,3 +1,3 @@
-module github.com/zaharatun/mygo
+module mygo
 
 go 1.16
