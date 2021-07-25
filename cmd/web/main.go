@@ -2,7 +2,7 @@ package main
 
 import (
 	"net/http"
-	"github.com/mygo/pkg/handlers"
+	"github.com/zaharatun/mygo/pkg/handlers"
 )
 
 
