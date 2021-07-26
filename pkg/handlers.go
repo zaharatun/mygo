@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"net/http"
-	"pkg/render"
+	"github.com/zaharatun/mygo/pkg/render"
 	
 	
 
