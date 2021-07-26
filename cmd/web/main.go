@@ -4,7 +4,7 @@ package main
 import(
 	"fmt"
 	"net/http"
-	"gitub.com/zaharatun/mygo/pkg/handlers"
+	"github.com/zaharatun/mygo/pkg/handlers"
 	
 )
 
